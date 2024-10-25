@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 
-const App: React.FC = () => {
+const App  = () => {
   const [aktívGomb, állítsdBeAktívGombot] = useState<number>(1); 
   const [bemenetiSzöveg, állítsdBeBemenetiSzöveget] = useState<string>('');
   const [celsius, állítsdBeCelsiust] = useState<number | ''>('');
